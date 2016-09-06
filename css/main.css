@@ -150,6 +150,9 @@ ABOUT
 	border-radius: 100%;
 }
 
+.container {
+	min-height: calc(100vh - 177.19px);
+}
 /******************************* 
 CONTACT
 ********************************/
