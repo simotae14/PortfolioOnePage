@@ -11,6 +11,14 @@ body {
 	font-family: 'Raleway', sans-serif;
 }
 
+.clearfix::after {
+     /* crea un ele vuoto a estremita inferiore tag,
+    permette al contenuto di occupare tutto lo spazio sino in fondo */
+    content: " ";
+    display: table;
+    clear: both;
+}
+
 /******************************* 
 HEADER
 ********************************/
@@ -80,9 +88,10 @@ SECTION
 ********************************/
 
 .wrapper {
-	max-width: 940px;
+	max-width: 1000px;
 	margin: 0 auto;
 	padding: 0 5% 5px 5%;
+	box-sizing: border-box
 }
 
 #gallery {
