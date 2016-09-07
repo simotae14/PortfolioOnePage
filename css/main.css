@@ -38,14 +38,14 @@ HEADER
 
 h1 {
 	color: #ffffff;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Indie Flower', cursive;
 	margin: 8px 0 3px 0;
 	font-size: 1.8em;
 }
 
 h2 {
 	color: #ffffff;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Indie Flower', cursive;
 	margin: 3px 0 10px 0;
 	font-size: .9em;	
 }
@@ -59,20 +59,31 @@ BANNER
 	text-align: center;
 	padding: 400px 0 30px 0;
 	/* img da caricare */
+	/*
 	background-image: url(../img/open-mac.jpg);
+	*/
 	/* dimensione img da caricare */
+	/*
 	background-size: cover;
+	*/
 	/* ripetizione img */
+	/*
 	background-repeat: no-repeat;
 	/* posizione immagine */
+	/*
 	background-position: center;
+	*/
 	/* effetto paralax */
+	/*
 	background-attachment: fixed;
+	*/
+	/* in sintesi */
+	background: url(../img/open-mac.jpg) no-repeat fixed center / cover; 
 }
 
 .banner p {
 	font-size: 1.4em;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Indie Flower', cursive;
 	color: #ffffff;
 }
 
@@ -99,6 +110,7 @@ nav ul {
 }
 
 nav li {
+	font-family: 'Indie Flower', cursive;
 	display: inline-block;	
 }
 
