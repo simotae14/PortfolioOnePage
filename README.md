@@ -5,4 +5,4 @@ Creazione di un esempio di Portfolio seguendo l'approccio di sviluppo Mobile fir
 
 Tecnologie usate HTML e CSS
 
-https://simotae14.github.io/Portfolio/
+https://simotae14.github.io/PortfolioOnePage/
