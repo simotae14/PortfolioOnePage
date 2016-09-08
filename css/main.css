@@ -94,7 +94,7 @@ NAV
 ********************************/
 
 nav{
-	background-color: #202D3A;
+	background-color: rgba(32,45,58,.8);
 	text-align: center;
 	padding: 5px 0 5px 0;
 }
