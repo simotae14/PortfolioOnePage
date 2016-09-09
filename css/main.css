@@ -49,11 +49,7 @@ HEADER
 
 h1 {
 	color: #ffffff;
-<<<<<<< HEAD
-	font-family: 'Indie Flower', cursive;
-=======
 	font-family: 'Poiret One', cursive;
->>>>>>> gh-pages
 	margin: 8px 0 3px 0;
 	font-size: 1.8em;
 	text-shadow: 0 2px 2px rgba(255,255,255,.4)
@@ -61,11 +57,7 @@ h1 {
 
 h2 {
 	color: #ffffff;
-<<<<<<< HEAD
-	font-family: 'Indie Flower', cursive;
-=======
 	font-family: 'Poiret One', cursive;
->>>>>>> gh-pages
 	margin: 3px 0 10px 0;
 	font-size: .9em;	
 }
@@ -79,44 +71,21 @@ BANNER
 	text-align: center;
 	padding: 482px 0 30px 0;
 	/* img da caricare */
-<<<<<<< HEAD
-	/*
-	background-image: url(../img/open-mac.jpg);
-	*/
-=======
 	background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.5)),
 						url(../img/work-station1.jpg);
->>>>>>> gh-pages
 	/* dimensione img da caricare */
-	/*
 	background-size: cover;
-	*/
 	/* ripetizione img */
-	/*
 	background-repeat: no-repeat;
-	/* posizione immagine */
-	/*
 	background-position: center;
-	*/
 	/* effetto paralax */
-	/*
 	background-attachment: fixed;
-<<<<<<< HEAD
-	*/
-	/* in sintesi */
-	background: url(../img/open-mac.jpg) no-repeat fixed center / cover; 
-=======
-
->>>>>>> gh-pages
+	
 }
 
 .banner p {
 	font-size: 1.4em;
-<<<<<<< HEAD
-	font-family: 'Indie Flower', cursive;
-=======
 	font-family: 'Poiret One', cursive;
->>>>>>> gh-pages
 	color: #ffffff;
 }
 
