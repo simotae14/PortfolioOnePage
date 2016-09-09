@@ -72,7 +72,7 @@ BANNER
 	padding: 482px 0 30px 0;
 	/* img da caricare */
 	background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.5)),
-						url(../img/coding1.jpg);
+						url(../img/work-station1.jpg);
 	/* dimensione img da caricare */
 	background-size: cover;
 	/* ripetizione img */
@@ -88,6 +88,10 @@ BANNER
 	font-size: 1.4em;
 	font-family: 'Poiret One', cursive;
 	color: #ffffff;
+}
+
+.arrow {
+	width: 40px;
 }
 
 /******************************* 
@@ -119,11 +123,11 @@ nav li {
 }
 
 nav a:hover {
-	color: #586e84;
+	color: #2c3e50;
 }
 
 nav a.selected {
-	color: #586e84;	
+	color: #2c3e50;	
 }
 
 /******************************* 
@@ -203,7 +207,17 @@ ABOUT
 ********************************/
 
 .container {
-	background-color: #2c3e50;
+	/* img da caricare */
+	background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.5)),
+						url(../img/code.jpg);
+	/* dimensione img da caricare */
+	background-size: cover;
+	/* ripetizione img */
+	background-repeat: no-repeat;
+	/* posizione immagine */
+	background-position: center;
+	/* effetto paralax */
+	background-attachment: fixed;
 	padding: 70px 0 50px 0;
 	color: #ffffff;
 }
