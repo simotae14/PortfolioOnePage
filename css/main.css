@@ -123,11 +123,11 @@ nav li {
 }
 
 nav a:hover {
-	color: #2c3e50;
+	color: #7b7f84;
 }
 
 nav a.selected {
-	color: #2c3e50;	
+	color: #7b7f84;	
 }
 
 /******************************* 
