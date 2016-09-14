@@ -71,6 +71,9 @@ BANNER
 	background-position: center;
 	/* effetto paralax */
 	background-attachment: fixed;
+
+	background-image: linear-gradient(20deg, #003300, #33cc33);
+	
 }
 
 .banner p {
