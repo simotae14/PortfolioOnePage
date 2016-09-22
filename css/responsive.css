@@ -70,5 +70,9 @@ HEADER
 		display: none;
 	}
 
+	#overlay img {
+		/* la centro */
+		margin-top: 10%;
+	}
 
 }
