@@ -62,6 +62,13 @@ h2 {
 	font-size: .9em;	
 }
 
+
+.darker {
+	font-weight: 600;
+	color: #d0c4ea;
+	font-size: 1.3em;
+}
+
 /******************************* 
 BANNER
 ********************************/
