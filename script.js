@@ -44,7 +44,7 @@ $overlay.click(function(){
 });
 
 
-var terms = ["Web Designer", "Frontend Dev", "Illustrator", " Trekker", " Traveler"];
+var terms = ["Web Designer", "Frontend Dev", "Web Developer", " Real Bergamasco", " Half Valtellinese"];
 
 function rotateTerm() {
   var ct = $("#rotate").data("term") || 0;
