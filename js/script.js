@@ -61,3 +61,18 @@ $(".animsition").animsition({
 	outDuration: 1500,
 	linkElement: 'a'
 });
+
+
+// effetto in scroll
+var fooReveal = {
+	reset: true,
+  delay    : 200,
+  distance : '90px',
+  easing   : 'ease-in-out',
+  rotate   : { z: 10 },
+  scale    : 1.1
+};
+
+window.sr = ScrollReveal();
+
+sr.reveal('.galElement', fooReveal);
