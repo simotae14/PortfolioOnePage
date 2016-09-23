@@ -62,17 +62,27 @@ $(".animsition").animsition({
 	linkElement: 'a'
 });
 
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
 
-// effetto in scroll
-var fooReveal = {
+// JavaScript
+window.sr = ScrollReveal({ 
+	origin: 'top',
+	mobile: true,
+	duration: 2000,
 	reset: true,
-  delay    : 200,
-  distance : '90px',
-  easing   : 'ease-in-out',
-  rotate   : { z: 10 },
-  scale    : 1.1
-};
-
-window.sr = ScrollReveal();
-
-sr.reveal('.galElement', fooReveal);
+	useDelay: 'onload'
+});
+sr.reveal('.foo', 500);
