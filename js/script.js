@@ -52,3 +52,12 @@ function rotateTerm() {
               .delay(2000).fadeOut(400, rotateTerm);
 }
 $(rotateTerm);
+
+// animsition
+$(".animsition").animsition({
+	inClass: 'rotate-in',
+	outClass: 'rotate-out',
+	inDuration: 1500,
+	outDuration: 1500,
+	linkElement: 'a'
+});
