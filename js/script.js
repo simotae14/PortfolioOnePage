@@ -52,3 +52,37 @@ function rotateTerm() {
               .delay(2000).fadeOut(400, rotateTerm);
 }
 $(rotateTerm);
+
+// animsition
+$(".animsition").animsition({
+	inClass: 'rotate-in',
+	outClass: 'rotate-out',
+	inDuration: 1500,
+	outDuration: 1500,
+	linkElement: 'a'
+});
+
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+
+// JavaScript
+window.sr = ScrollReveal({ 
+	origin: 'top',
+	mobile: true,
+	duration: 2000,
+	reset: true,
+	useDelay: 'onload'
+});
+sr.reveal('.foo', 500);
